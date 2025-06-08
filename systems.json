@@ -1,0 +1,50 @@
+[
+  {
+    "name": "web-server-1",
+    "status": "running",
+    "cpu": 75,
+    "memory": 62
+  },
+  {
+    "name": "web-server-2", 
+    "status": "running",
+    "cpu": 45,
+    "memory": 38
+  },
+  {
+    "name": "database-server-1",
+    "status": "running",
+    "cpu": 88,
+    "memory": 92
+  },
+  {
+    "name": "api-gateway",
+    "status": "stopped",
+    "cpu": 0,
+    "memory": 0
+  },
+  {
+    "name": "cache-server",
+    "status": "running",
+    "cpu": 23,
+    "memory": 45
+  },
+  {
+    "name": "backup-server",
+    "status": "running",
+    "cpu": 12,
+    "memory": 28
+  },
+  {
+    "name": "monitoring-server",
+    "status": "stopped",
+    "cpu": 0,
+    "memory": 0
+  },
+  {
+    "name": "load-balancer",
+    "status": "running",
+    "cpu": 55,
+    "memory": 41
+  }
+]
