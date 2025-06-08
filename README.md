@@ -31,8 +31,24 @@ cp .env.example .env
 ```
 
 ### Running the Application
+
+#### Option 1: Using the startup script (Easiest)
+```bash
+./start.sh
+```
+
+#### Option 2: Direct Python
 ```bash
 streamlit run app.py
+```
+
+#### Option 3: Docker Compose (Recommended for production)
+```bash
+# Set your OpenAI API key in environment
+export OPENAI_API_KEY=your_api_key_here
+
+# Run with Docker Compose
+docker-compose up -d
 ```
 
 The dashboard will open in your browser at `http://localhost:8501`
